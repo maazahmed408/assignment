@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Topbar from "./View/Home/Topbar";
+import Hero from "./View/Home/Hero";
+import About from "./View/Home/About";
+import Sidebar from "./View/Home/Sidebar";
+import OurServices from "./View/Home/OurServices";
+import OurWork from "./View/Home/OurWork";
+import OurPartner from "./View/Home/OurPartner";
+import Testimonials from "./View/Home/Testimonial";
+import Banner from "./View/Home/Banner";
+import Footer from "./View/Home/Footer";
+
+const App = () => {
+	const [sidebar, setSidebar] = useState(false);
+
+	return (
+		<main className="relative h-screen">
+			{sidebar && <Sidebar sidebar={sidebar} setSidebar={setSidebar} />}
+			<Topbar setSidebar={setSidebar} />
+			<Hero />
+			<About />
+			<OurServices />
+			<OurWork />
+			<OurPartner />
+			<Testimonials />
+			<Banner />
+			<Footer />
+		</main>
+	);
+};
 
 export default App;
