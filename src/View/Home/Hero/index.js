@@ -6,11 +6,11 @@ const Hero = () => {
 			<img
 				src="/hero.jpg"
 				alt="hero"
-				className="object-cover w-full h-screen"
+				className="object-cover w-full h-screen md:h-[600px] lg:h-[800px]"
 			/>
-			<div className="absolute top-4 w-full md:w-2/3 md:mt-20">
+			<div className="absolute top-4 w-full md:w-2/3 md:mt-20 lg:w-1/2 lg:mt-[200px]">
 				<div className="text-center bg-gray p-4 md:text-left md:py-14 md:px-8 lg:px-12 xl:px-24">
-					<p className="font-semibold text-5xl text-primary-main tracking-wider md:text-6xl lg:text-7xl">
+					<p className="font-semibold text-5xl text-primary-main tracking-wider md:text-6xl lg:text-8xl">
 						We are
 						<span className="text-secondary-main md:block"> Extensive</span>
 					</p>

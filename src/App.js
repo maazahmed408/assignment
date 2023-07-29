@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import Topbar from "./View/Home/Topbar";
 import Hero from "./View/Home/Hero";
 import About from "./View/Home/About";
@@ -15,7 +14,7 @@ const App = () => {
 	const [sidebar, setSidebar] = useState(false);
 
 	return (
-		<main className="relative h-screen">
+		<main className="relative h-screen ">
 			{sidebar && <Sidebar sidebar={sidebar} setSidebar={setSidebar} />}
 			<Topbar setSidebar={setSidebar} />
 			<Hero />

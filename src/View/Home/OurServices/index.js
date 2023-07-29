@@ -2,14 +2,14 @@ import React from "react";
 
 const OurServices = () => {
 	return (
-		<div className=" mt-8 md:flex md:relative md:mt-20 justify-between md:px-8 lg:px-12 xl:px-24">
+		<div className=" mt-8 md:flex md:relative md:mt-20 justify-between md:px-8 lg:px-12 lg:mt-44  xl:px-24 xl:mt-52">
 			<div className="md:w-1/2">
 				<svg
-					className="hidden md:block absolute z-0 top-[-30%] left-[-20%] xl:left-[-10%]"
+					className="hidden md:block absolute z-0 top-[-30%] left-[-20%] lg:left-[-10%] lg:top-[-20%] "
 					viewBox="0 0 500 500"
 					xmlns="http://www.w3.org/2000/svg"
-					width="700"
-					height="700"
+					width="800"
+					height="800"
 					id="blobSvg"
 				>
 					<path
@@ -20,19 +20,19 @@ const OurServices = () => {
 				</svg>
 
 				<div className="px-6 py-4 bg-purple-200 md:mt-14 md:bg-transparent md:relative">
-					<p className="text-primary-main text-5xl m-0 tracking-wide font-semibold z-10 lg:text-6xl">
+					<p className="text-primary-main text-5xl md:text-6xl m-0 tracking-wide font-semibold z-10 lg:text-8xl">
 						WHAT
 					</p>
-					<p className="text-primary-main text-5xl m-0 tracking-wider font-semibold z-10 lg:text-6xl">
+					<p className="text-primary-main text-5xl m-0 tracking-wider font-semibold z-10 md:text-6xl lg:text-8xl">
 						WE DO.
 					</p>
-					<p className="text-primary-main text-xl font-medium tracking-wide  mt-4 z-10 lg:text-2xl lg:mt-8 lg:w-2/3">
+					<p className="text-primary-main text-xl font-medium tracking-wide  mt-4 z-10 md:text-3xl lg:text-4xl lg:mt-8 lg:w-2/3">
 						We do lots of stuffs , basically adding value to your product .
 					</p>
 				</div>
 			</div>
 			<div className="mt-8 z-10 px-6 md:px-0 ">
-				<p className="text-4xl text-primary-main font-medium m-0 mt-4 py-2 md:text-5xl lg:text-6xl">
+				<p className="text-4xl text-primary-main font-medium m-0 mt-4 py-2 md:text-5xl lg:text-6˘xl">
 					Digital Marketing
 				</p>
 				<p className="text-4xl text-primary-main font-medium m-0 mt-4 py-2 md:text-5xl lg:text-6xl">

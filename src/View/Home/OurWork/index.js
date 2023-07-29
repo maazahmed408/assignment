@@ -2,11 +2,11 @@ import React from "react";
 
 const OurWork = () => {
 	return (
-		<div className="px-6 py-8 mt-12 bg-primary-main md:px-8 md:mt-20 lg:px-12 xl:px-24">
-			<p className="text-5xl text-purple-200 font-semibold m-0  tracking-wider md:text-6xl">
+		<div className="px-6 py-8 mt-12 bg-primary-main md:px-8 md:mt-20 lg:px-12 lg:mt-56 xl:px-24">
+			<p className="text-5xl text-purple-200 font-semibold m-0  tracking-wider md:text-6xl lg:text-8xl">
 				Our
 			</p>
-			<p className="text-5xl text-purple-200 font-semibold m-0 mt-4 tracking-wider md:text-6xl">
+			<p className="text-5xl text-purple-200 font-semibold m-0 mt-4 tracking-wider md:text-6xl lg:text-8xl">
 				Work.
 			</p>
 			<button className="hidden md:block px-6 py-4 mt-4 text-lg rounded-lg bg-secondary-main text-white uppercase outline-0 border-0">
@@ -23,7 +23,7 @@ const OurWork = () => {
 						DIGITAL MARKETING
 					</p>
 					<p className="text-5xl uppercase text-purple-200 mt-2">Starbucks</p>
-					<p className="text-lg text-white mt-2">
+					<p className="text-lg text-white mt-2 lg:text-3xl">
 						Our ad campaign brought 80% footfall to the company{" "}
 					</p>
 				</div>
@@ -37,8 +37,8 @@ const OurWork = () => {
 						DIGITAL MARKETING
 					</p>
 					<p className="text-5xl uppercase text-purple-200 mt-2">Starbucks</p>
-					<p className="text-lg text-white mt-2">
-						Our ad campaign brought 80% footfall to the company{" "}
+					<p className="text-lg text-white mt-2 lg:text-3xl">
+						Our ad campaign brought 80% footfall to the company
 					</p>
 				</div>
 				<div className="w-full mt-12">
@@ -51,8 +51,8 @@ const OurWork = () => {
 						DIGITAL MARKETING
 					</p>
 					<p className="text-5xl uppercase text-purple-200 mt-2">Starbucks</p>
-					<p className="text-lg text-white mt-2">
-						Our ad campaign brought 80% footfall to the company{" "}
+					<p className="text-lg text-white mt-2 lg:text-3xl">
+						Our ad campaign brought 80% footfall to the company
 					</p>
 				</div>
 				<div className="w-full  mt-12">
@@ -65,8 +65,8 @@ const OurWork = () => {
 						DIGITAL MARKETING
 					</p>
 					<p className="text-5xl uppercase text-purple-200 mt-2">Starbucks</p>
-					<p className="text-lg text-white mt-2">
-						Our ad campaign brought 80% footfall to the company{" "}
+					<p className="text-lg text-white mt-2 lg:text-3xl">
+						Our ad campaign brought 80% footfall to the company
 					</p>
 				</div>
 			</div>
